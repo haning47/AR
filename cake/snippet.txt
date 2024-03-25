@@ -1,0 +1,16 @@
+<model-viewer src="cakeb.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.17110650635973615m 0.20046703103554006m -0.017706746236453456m" data-normal="0.9762927440696794m -0.19300170767693905m -0.0979939728283381m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">給婷媜</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.06696368178498346m 0.40536835539108973m -0.11561004702607797m" data-normal="0.3339816323009502m 0.9183547752690712m -0.2123223399128952m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">歲歲年年</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
