@@ -1,8 +1,8 @@
-<model-viewer src="kitty.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" auto-rotate camera-target="1.82m 1.8m 0.89m" shadow-softness="1" exposure="1">
-    <button class="Hotspot" slot="hotspot-1" data-surface="0 0 2392 2399 2398 0.312 0.276 0.412" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">眼睛</div>
-    </button><button class="Hotspot" slot="hotspot-2" data-surface="0 0 1858 1954 2292 0.129 0.141 0.730" data-visibility-attribute="visible">
+<model-viewer src="kittyb.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.078939443313994m 0.40279783915764017m 0.10732239162322522m" data-normal="0.3184420656151277m 0.35290304934347383m 0.8798034374852423m" data-visibility-attribute="visible">
         <div class="HotspotAnnotation">蝴蝶結</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.01999748574912613m 0.11953166271334456m 0.11813135016557942m" data-normal="0.09690245381303207m -0.2921150445844313m 0.9514613576874518m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Kitty</div>
     </button>
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
